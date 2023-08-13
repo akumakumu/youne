@@ -1,11 +1,7 @@
-use yew::prelude::*;
+// use yew::prelude::*;
+// use yew_router::prelude::*;
 
-#[function_component(App)]
-fn app() -> Html {
-    html! {
-        <h1 class="text-3xl text-center">{ "Youne" }</h1>
-    }
-}
+use youne::App;
 
 fn main() {
     yew::Renderer::<App>::new().render();

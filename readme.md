@@ -1,5 +1,5 @@
 ```
-npx tailwindcss -i ./style/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./style/input.css -o ./style/output.css --watch
 ```
 
 ```

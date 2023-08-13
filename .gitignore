@@ -1,2 +1,7 @@
+.vscode/
+
 target/
+
 dist/
+
+style/output.css
