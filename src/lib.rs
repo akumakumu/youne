@@ -16,7 +16,7 @@ pub fn app() -> Html {
     html! {
         <>
             // <h1 class="text-3xl text-center font-bold">{ "Youne" }</h1>
-            < TestTitle />
+            < TestTitle title="Youne on test" />
             <p>{"fragment"}</p>
         </>
     }
