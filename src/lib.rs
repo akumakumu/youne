@@ -17,7 +17,10 @@ pub fn app() -> Html {
     html! {
         <>
             // < TestTitle title="Youne on test" classer={Classer::Center} />
-            < NavigationBar />
+            <div class="flex">
+            <NavigationBar />
+            </div>
+            
         </>
     }
 }
